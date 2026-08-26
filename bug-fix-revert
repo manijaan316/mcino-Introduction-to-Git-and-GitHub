@@ -1,0 +1,46 @@
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all
+
+Terminal output:
+[
+  {
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+    "id": 1029384756,
+    "node_id": "PR_kwDOMfG3fg5-XXXX",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1",
+    "number": 1,
+    "state": "open",
+    "title": "Fix typo and revert bug",
+    "user": {
+      "login": "manijaan316",
+      "id": 12345678,
+      "type": "User"
+    },
+    "head": {
+      "label": "manijaan316:bug-fix-revert",
+      "ref": "bug-fix-revert",
+      "sha": "a1b2c3d4e5f67890",
+      "user": {
+        "login": "manijaan316"
+      },
+      "repo": {
+        "id": 845239102,
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "manijaan316/mcino-Introduction-to-Git-and-GitHub",
+        "private": false,
+        "owner": {
+          "login": "manijaan316"
+        },
+        "html_url": "https://github.com/manijaan316/mcino-Introduction-to-Git-and-GitHub",
+        "fork": true
+      }
+    },
+    "base": {
+      "label": "ibm-developer-skills-network:main",
+      "ref": "main",
+      "repo": {
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      }
+    }
+  }
+]
