@@ -1,0 +1,1 @@
+curl.exe -L "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=manijaan316:bug-fix-typo"
